@@ -3,40 +3,62 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
     <div class="jumbotron">
-        <h1>ASP.NET</h1>
-        <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS, and JavaScript.</p>
-        <p><a href="http://www.asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
-    </div>
-
-    <div class="row">
-        <div class="col-md-4">
-            <h2>Getting started</h2>
-            <p>
-                ASP.NET Web Forms lets you build dynamic websites using a familiar drag-and-drop, event-driven model.
-            A design surface and hundreds of controls and components let you rapidly build sophisticated, powerful UI-driven sites with data access.
-            </p>
-            <p>
-                <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301948">Learn more &raquo;</a>
-            </p>
-        </div>
-        <div class="col-md-4">
-            <h2>Get more libraries</h2>
-            <p>
-                NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.
-            </p>
-            <p>
-                <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301949">Learn more &raquo;</a>
-            </p>
-        </div>
-        <div class="col-md-4">
-            <h2>Web Hosting</h2>
-            <p>
-                You can easily find a web hosting company that offers the right mix of features and price for your applications.
-            </p>
-            <p>
-                <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301950">Learn more &raquo;</a>
-            </p>
-        </div>
+        <h1>
+            
+            Mantenimiento de Productos</h1>
+           <p>
+               <asp:Label ID="Label1" runat="server" Text="Agregar Producto"></asp:Label>
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; |&nbsp;&nbsp; Producto a editar&nbsp; |&nbsp; Nueva edicion </p>
+        <p>
+            
+            <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+&nbsp;&nbsp;<asp:Button ID="Button8" runat="server" Text="Guardar" Width="92px" />
+&nbsp; |&nbsp;&nbsp;
+            <asp:TextBox ID="TextBox3" runat="server" Width="157px"></asp:TextBox>
+&nbsp;|
+            <asp:TextBox ID="TextBox2" runat="server" Width="142px"></asp:TextBox>
+            
+            <asp:Button ID="Button5" runat="server" Text="Cambiar" Width="83px" />
+            &nbsp;
+            <asp:Button ID="Button4" runat="server" Text="Eliminar" Width="78px" />
+&nbsp;</p>
+        <p>
+            
+            <asp:GridView ID="GridView3" runat="server">
+            </asp:GridView>
+            
+        </p>
+        <p>
+            
+            Totales entre fechas:</p>
+        <p>
+            
+            fecha 1
+            <asp:TextBox ID="TextBox4" runat="server"></asp:TextBox>
+&nbsp;y fecha 2&nbsp;
+            <asp:TextBox ID="TextBox5" runat="server"></asp:TextBox>
+&nbsp;</p>
+        <p>
+            
+            <asp:Button ID="Button6" runat="server" Text="Total de Ventas" />
+&nbsp; ==&nbsp;&nbsp;&nbsp;
+            <asp:Label ID="Label2" runat="server" Text="Label"></asp:Label>
+            
+        </p>
+        <p>
+            
+            <asp:Button ID="Button7" runat="server" Text="Ganancia" Width="216px" />
+&nbsp;&nbsp; ==&nbsp;&nbsp;&nbsp;
+            <asp:Label ID="Label3" runat="server" Text="Label"></asp:Label>
+            
+        </p>
+        <p>
+            
+            Listado de Ventas Pendientes por Entregar...<asp:GridView ID="GridView2" runat="server">
+            </asp:GridView>
+            
+        </p>
+        &nbsp;</h1>
     </div>
 
 </asp:Content>
