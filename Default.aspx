@@ -8,12 +8,16 @@
             Mantenimiento de Productos</h1>
            <p>
                <asp:Label ID="Label1" runat="server" Text="Agregar Producto"></asp:Label>
-               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; |&nbsp;&nbsp; Producto a editar&nbsp; |&nbsp; Nueva edicion </p>
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |&nbsp;&nbsp; Producto a editar&nbsp; |&nbsp; Nueva edicion&nbsp; </p>
         <p>
             
+            Nombre
+            
             <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
-&nbsp;&nbsp;<asp:Button ID="Button8" runat="server" Text="Guardar" Width="92px" />
-&nbsp; |&nbsp;&nbsp;
+&nbsp;&nbsp;<asp:Button ID="Button8" runat="server" Text="Guardar" Width="92px" OnClick="Button8_Click"  />
+&nbsp; |&nbsp;&nbsp;&nbsp;
+          
+            
             <asp:TextBox ID="TextBox3" runat="server" Width="157px"></asp:TextBox>
 &nbsp;|
             <asp:TextBox ID="TextBox2" runat="server" Width="142px"></asp:TextBox>
@@ -21,7 +25,12 @@
             <asp:Button ID="Button5" runat="server" Text="Cambiar" Width="83px" />
             &nbsp;
             <asp:Button ID="Button4" runat="server" Text="Eliminar" Width="78px" />
-&nbsp;</p>
+            &nbsp;&nbsp;</p>
+      
+        <p>
+            
+            Codigo&nbsp; <asp:TextBox ID="TextBox6" runat="server"></asp:TextBox>
+        </p>
         <p>
             
             <asp:GridView ID="GridView3" runat="server">
@@ -58,7 +67,6 @@
             </asp:GridView>
             
         </p>
-        &nbsp;</h1>
-    </div>
+        &nbsp;</div>
 
 </asp:Content>
