@@ -3,33 +3,51 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
     <div class="jumbotron">
+        <p>
+               &nbsp;&nbsp;&nbsp; <a runat="server" href="~/WebForm1.aspx">Home</a></p>
         <h1>
             
-            Mantenimiento de Productos</h1>
+            Mantenimiento de Productos&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </h1>
            <p>
-               <asp:Label ID="Label1" runat="server" Text="Agregar Producto"></asp:Label>
-               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |&nbsp;&nbsp; Producto a editar&nbsp; |&nbsp; Nueva edicion&nbsp; </p>
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+               Agregar Productos&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;</p>
         <p>
             
-            Nombre
+            Codigo&nbsp;&nbsp;
             
-            <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
-&nbsp;&nbsp;<asp:Button ID="Button8" runat="server" Text="Guardar" Width="92px" OnClick="Button8_Click"  />
-&nbsp; |&nbsp;&nbsp;&nbsp;
+            <asp:TextBox ID="TextBox1" runat="server" Width="178px"></asp:TextBox>
+            &nbsp;&nbsp; |&nbsp;Imagen&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           
             
-            <asp:TextBox ID="TextBox3" runat="server" Width="157px"></asp:TextBox>
-&nbsp;|
-            <asp:TextBox ID="TextBox2" runat="server" Width="142px"></asp:TextBox>
+            <asp:TextBox ID="TextBox3" runat="server" Width="177px"></asp:TextBox>
+            &nbsp;&nbsp;
+            </p>
+        <p>
             
-            <asp:Button ID="Button5" runat="server" Text="Cambiar" Width="83px" />
-            &nbsp;
-            <asp:Button ID="Button4" runat="server" Text="Eliminar" Width="78px" />
-            &nbsp;&nbsp;</p>
+            Nombre&nbsp; <asp:TextBox ID="TextBox8" runat="server"></asp:TextBox>
+&nbsp;&nbsp; | Precio de compra<asp:TextBox ID="TextBox9" runat="server"></asp:TextBox>
+            </p>
       
         <p>
             
-            Codigo&nbsp; <asp:TextBox ID="TextBox6" runat="server"></asp:TextBox>
+            Marca&nbsp; &nbsp; <asp:TextBox ID="TextBox6" runat="server"></asp:TextBox>
+            &nbsp;&nbsp; | Precio de Venta&nbsp;&nbsp;
+            <asp:TextBox ID="TextBox2" runat="server" Width="178px"></asp:TextBox>
+            
+            &nbsp;&nbsp;
+        </p>
+        <p>
+            
+            Descripcion&nbsp;
+            <asp:TextBox ID="TextBox10" runat="server" Width="139px"></asp:TextBox>
+&nbsp;&nbsp;&nbsp;| Existencias&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:TextBox ID="TextBox7" runat="server"></asp:TextBox>
+        </p>
+        <p>
+            
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:Button ID="Button8" runat="server" Text="Guardar" Width="90px" OnClick="Button8_Click"  />
+            <asp:Button ID="Button9" runat="server" OnClick="Button9_Click" Text="Mostrar" style="height: 36px" />
         </p>
         <p>
             
